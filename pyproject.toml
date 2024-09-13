@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clustering"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Silva <teixeirarafa10@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.2"
+yellowbrick = "^1.5"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
